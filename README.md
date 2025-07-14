@@ -231,6 +231,10 @@ https://github.com/ardentperf/dsef/
 
 2、[编程语言链接数据库](https://github.com/xfg0218/greenplum--summarize/blob/master/202507/%E5%BC%80%E5%8F%91%E8%AF%AD%E8%A8%80%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93/codeConnection.md)
 
+3、[JAVA COPY 代码加载到Greenplum数据库](202507/JAVA%20COPY%20%E4%BB%A3%E7%A0%81%E5%8A%A0%E8%BD%BD%E5%88%B0Greenplum%E6%95%B0%E6%8D%AE%E5%BA%93.md)
+
+4、[apache-seatunnel 使用](202211/apache-seatunnel%20%E4%BD%BF%E7%94%A8.md)
+
 
 ## 202211 月
 
