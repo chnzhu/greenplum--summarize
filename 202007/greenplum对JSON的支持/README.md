@@ -81,7 +81,7 @@
 	2、使用#>>查询出来的数据是text格式的数据，而使用#>查询出来的数据为json数据
 ```
 
-​	
+	
 ## 2.2 JSON常用的创建函数
 
 
@@ -101,7 +101,7 @@
 	json_agg(record)
 	json_object_agg(name, value)
 ```
-​	
+
 ## 2.4 JSON处理函数
 ```sql
 	json_array_length(json)
@@ -193,10 +193,12 @@
 	-------------
 	{"c":"baz"}
 	(1 row)
+
+		注意以上结果查询的坐标是从0开始的，查询条件必须是索引
+
 ```
 
-​	
-	注意以上结果查询的坐标是从0开始的，查询条件必须是索引
+	
 
 ### 3.3.2 获取JSON子集的数据
 ```sql
@@ -211,18 +213,22 @@
 
 
 ### 3.3.3 获取一个JSON集合的子元素
+
 ```sql
 	select '{"a":[1,2,3],"b":[4,5,6]}'::json#>>'{a,2}'  as jsondata;
 	jsondata 
 	----------
 	3
 	(1 row)
+
+	注意这个JSON写的格式，以及获取的顺序
 ```
 
-​	
-	注意这个JSON写的格式，以及获取的顺序
+
+	
 
 ### 3.3.4 获取数值进行判断
+
 ```sql
 	select '{"a":[1,2,3],"b":[4,5,6]}'::json#>>'{a,2}'='3';
 	?column? 
@@ -260,8 +266,6 @@
 		注意查看以上的结果可以看出row是行的数据，结果中f1,f2,f3是默认的字段的名，在后面将会介绍怎样获取字段名转化为JSON。
 ```
 
-​	
-
 
 ## 4.3 把字段转化为json类型
 
@@ -290,8 +294,7 @@
 
 以上结果只显示出了key与value的值，value返回的是带双引号的值。
 ```
-
-​	
+	
 
 ## 5.2 获取JSON中的数据(去除双引号)
 ```sql
@@ -378,7 +381,7 @@
 ```
 
 
-```sql​	
+```sql
 	SELECT info ->> 'customer' AS customer FROM test_json;
 	customer   
 	--------------
@@ -387,10 +390,11 @@
 	josh william
 	mary clark
 	(4 rows)
+
+	使用->> 就可以把双引去掉了。
 ```
 
-​	
-	使用->> 就可以把双引去掉了。
+
 
 ## 6.2 按照条件查询数据
 ```sql
@@ -401,25 +405,19 @@
 	(1 row)
 ```
 
-​	
+	
 	查询条件也可以作为解析的对象。
 
 
-​	
-​	
 	也可以写成以下的形式
 ```sql	
 	select info ->> 'customer' as customer,info -> 'items' ->> 'product' as product from test_json where cast ( info -> 'items' ->> 'qty' as integer ) = 2;
-
-
-​	
+	
 	customer  |  product  
 	------------+-----------
 	mary clark | toy train
 	(1 row)
 
-
-​	
 	info -> 'items' ->> 'qty' AS INTEGER  是获取json集合中元素是qty的数据 转化为INTEGER,
 	case() 是把数值转化为int4类型 
 ```
@@ -429,8 +427,6 @@
 ```sql
 	select min(cast( info -> 'items' ->> 'qty' as integer)), max (cast (info -> 'items' ->> 'qty' as integer)), sum (cast (info -> 'items' ->> 'qty' as integer)), avg (cast (info -> 'items' ->> 'qty' as integer)) from test_json;
 
-
-​	
 	min | max | sum |        avg         
 	-----+-----+-----+--------------------
 	1 |  24 |  33 | 8.2500000000000000
@@ -488,7 +484,7 @@
 	qty
 	(8 rows)
 ```
-​	
+	
 ## 6.6 把查询数据转化为JSON
 	创建表并构造数据
 ```sql
@@ -498,9 +494,7 @@
 	return uuid.uuid1()
 	$BODY$
 	LANGUAGE 'plpythonu' VOLATILE COST 100;
-
-
-​	
+	
 	create table test_json_data(
 	filed1 varchar(50),
 	filed2 varchar(50)
