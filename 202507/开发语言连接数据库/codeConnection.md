@@ -1,10 +1,3 @@
----
-title: "编程语言连接数据库"
-weight: 3
-bookToc: true
-bookCollapseSection: false
----
-
 ## 编程语言连接数据库
 
 目前数据库一般支持HA的连接，即一个`Coordinator`内的一个节点异常后会链接到另外的一个节点，不会影响业务的正常运行。在`JDBC`配置时需要采用 [高可用链接字符串(Connection URL/DSN)](https://www.postgresql.org/docs/16/libpq-connect.html#LIBPQ-CONNSTRING) 的方式连接。适用于不同的编程语言中使用，`URL`例如:

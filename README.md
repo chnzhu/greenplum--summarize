@@ -225,6 +225,13 @@ https://github.com/ardentperf/dsef/
 
 # 历史greenplum知识点介绍
 
+## 202507 月
+
+1、[客户端连接数据库](https://github.com/xfg0218/greenplum--summarize/blob/master/202507/%E5%AE%A2%E6%88%B7%E7%AB%AF%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93/clientConnection.md)
+
+2、[编程语言链接数据库](https://github.com/xfg0218/greenplum--summarize/blob/master/202507/%E5%BC%80%E5%8F%91%E8%AF%AD%E8%A8%80%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93/codeConnection.md)
+
+
 ## 202211 月
 
 1、[pgpool使用](202211/pgpool%E4%BD%BF%E7%94%A8)
