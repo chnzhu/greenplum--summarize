@@ -63,6 +63,7 @@
 
 # 2 JSON与JSONB常用操作符与函数
 ## 2.1 JSON与JSONB常用操作符
+```sql
 	操作符	操作数据类型	描述	例子
 	->	int	得到Json数组的元素(索引从0开始，负整数结束)	'[1,2,3]'::json->2
 	->	text	得到Json对象的域值	'{"a":1,"b":2}'::json->'b'
@@ -71,14 +72,18 @@
 	#>	array of text	得到指定位置的Json对象	'{"a":[1,2,3],"b":[4,5,6]}'::json#>'{a,2}'
 	#>>	array of text	得到指定位置的Json对象（text格式输出）	'{"a":[1,2,3],"b":[4,5,6]}'::json#>>'{a,2}'
 	
+
 	注意:
 	
 	1、使用->>操作符查询出来的数据为text格式而使用->查询出来的是json对象
 	2、使用#>>查询出来的数据是text格式的数据，而使用#>查询出来的数据为json数据
-
+```
 
 ​	
 ## 2.2 JSON常用的创建函数
+
+
+```sql
 	to_json(anyelement)
 	array_to_json(anyarray [, pretty_bool])
 	row_to_json(record [, pretty_bool])
@@ -86,13 +91,14 @@
 	json_build_object(VARIADIC "any")
 	json_object(text[])
 	json_object(keys text[], values text[])
+```
+
 
 ## 2.3 JSON聚合函数
-
+```sql
 	json_agg(record)
 	json_object_agg(name, value)
-
-
+```
 ​	
 ## 2.4 JSON处理函数
 ```sql
@@ -125,6 +131,7 @@
 ```
 
 ## 2.5 JSONB操作符
+```sql
 	操作符	操作类型	描述
 	@>	jsonb	左边的JSON值是否包含顶层右边JSON路径/值项
 	<@	jsonb	左边的JSON路径/值是否包含在顶层右边JSON的值中
@@ -138,8 +145,11 @@
 	-	integer	删除制定索引的数组元素(负整数结尾)，如果顶层容器不是一个数组，那么抛出错误。
 	#-	text[]	删除制定路径的区域
 	元素(JSON数组,负整数结尾)
+```
+
 
 ## 2.6 常用的操作运算符
+```sql
 	操作符	描述
 	<	小于
 	>	大于
@@ -147,6 +157,7 @@
 	>=	大于等于
 	=	等于
 	<>或！=	不相等
+```
 
 ## 2.7 Greenplum对JSONB支持的说明
 	目前Greenplum对JSONB格式的数据只支持简单的查询，接下来就不过多的介绍JSONB数据了。
@@ -221,6 +232,7 @@
 
 # 4 JSON 创建函数的使用
 ## 4.1 创建int类型的JSON格式数据
+
 ```sql
 	select array_to_json('{{1,5},{99,100}}'::int[])  as jsondata;
 	jsondata     
