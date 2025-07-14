@@ -239,12 +239,14 @@
 	------------------
 	[[1,5],[99,100]]
 	(1 row)
+
+注意int数组的json数据已经把原本的格式转换了。
+
 ```
 
-​	
-	注意int数组的json数据已经把原本的格式转换了。
 
 ## 4.2 把行的数据转化为JSON类型的数据
+
 ```sql
 	select row_to_json(row(1,2,'foo'))  as jsondata;
 			jsondata          
@@ -257,6 +259,7 @@
 	注意查看以上的结果可以看出row是行的数据，结果中f1,f2,f3是默认的字段的名，在后面将会介绍怎样获取字段名转化为JSON。
 
 ## 4.3 把字段转化为json类型
+
 ```sql
 	dw=# create table test_table(id int,name varchar(50)) DISTRIBUTED BY(id); 
 	CREATE TABLE
