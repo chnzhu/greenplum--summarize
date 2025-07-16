@@ -235,6 +235,10 @@ https://github.com/ardentperf/dsef/
 
 4、[apache-seatunnel 使用](202211/apache-seatunnel%20%E4%BD%BF%E7%94%A8.md)
 
+5、[数据库发展研究报告-2025年](document/databaseReports/数据库发展研究报告-2025年.pdf)
+
+6、[数据库发展研究报告-2025年解读PPT](document/databaseReports/数据库发展研究报告-2025年解读PPT.pdf)
+
 
 ## 202211 月
 
