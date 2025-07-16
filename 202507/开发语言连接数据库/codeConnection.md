@@ -37,6 +37,7 @@ preferQueryMode=simple&reWriteBatchedInserts=true
 ### 在高并发读取时的参数
 ```sql
 preparedStatementCacheQueries=512&defaultRowFetchSize=500&prepareThreshold=10
+
 ```
 
 **`preparedStatementCacheQueries`**：一个会话中最大能缓存的PreparedStatement数量，默认值256，在高并发读取时可以适当调整为512.
