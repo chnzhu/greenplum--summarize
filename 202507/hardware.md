@@ -56,8 +56,6 @@ grep "processor" /proc/cpuinfo | wc -l
 
 [2]. (https://mp.weixin.qq.com/s/XZLpAr7Oau0rwtAm7B_3TQ)
 
-[3]. (https://mp.weixin.qq.com/s/XZLpAr7Oau0rwtAm7B_3TQ)
-
-[4]. https://cloudberry.apache.org/zh/docs/cbdb-op-software-hardware/
+[3]. https://cloudberry.apache.org/zh/docs/cbdb-op-software-hardware/
 
 

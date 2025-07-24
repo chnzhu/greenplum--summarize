@@ -61,6 +61,11 @@ WebDB 也支持链接大模型，可以方便的生成需要的SQL。
 
 - [webdb](https://docs.webdb.app/)
 
+## ** WhoDB **
+
+WhoDB 通过与 Ollama、ChatGPT 和 Anthropic 的集成，为您提供了使用自然语言与数据对话的机会。此功能允许您通过对话而不是复杂的 SQL 来执行查询和管理数据。
+
+- [whodb](https://whodb.com/)
 
 
 ### **各自的特点比较**
