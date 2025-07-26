@@ -42,8 +42,40 @@ grep "processor" /proc/cpuinfo | wc -l
 
 # 储存
 
+如果是SATA最低选择10K及以上的，7200 RPM的SATA 盘在物理寻道时间、旋转延迟时间上都比较长再加上现在的磁盘的IOPS都比较低，就会导致写入效率下降。
+
+![images](images/hard-drives.png)
+
+| 转速 | 物理寻道时间 | 旋转延迟时间 | 理论的最大IOPS |
+|:------:|:------:|:------:|:------:|
+| 7200 RPM | 9ms | 4.17ms | 76 IOPS |
+|  10000   | 6ms | 3ms | 111 IOPS |
+|  15000   | 4ms | 2ms | 166 IOPS |
+
+> IOPS = 1000 ms/ (寻道时间 + 旋转延迟)
+
+
+[1]. https://en.wikipedia.org/wiki/IOPS
+[2]. https://colin-scott.github.io/personal_website/research/interactive_latency.html
+
 
 # RAID 卡
+
+各种RAID级别的Write Penalty值
+
+| RAID Level | Write Penalty (ms) |
+| :----------: | :----------: |
+| RAID-0     | 1                  |
+| RAID-1     | 2                  |
+| RAID-5     | 4                  |
+| RAID-6     | 6                  |
+| RAID-10    | 2                  |
+
+
+RAID-0：直接的条带，数据每次写入对应物理磁盘上的一次写入
+RAID-1和10：RAID-1 和RAID-10的写惩罚很简单理解，因为数据的镜像存在的，所以一次写入会有两次。
+RAID-5：RAID-5由于要计算校验位的机制存在，需要读数据、读校验位、写数据、写校验位四个步骤，所以RAID-5的写惩罚值是4。
+RAID-6：RAID-6由于有两个校验位的存在，与RAID-5相比，需要读取两次校验位和写入两次校验位，所以RAID-6的写惩罚值是6。
 
 
 # 网络
