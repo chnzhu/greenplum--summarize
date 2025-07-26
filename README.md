@@ -239,6 +239,7 @@ https://github.com/ardentperf/dsef/
 
 6、[数据库发展研究报告-2025年解读PPT](document/databaseReports/数据库发展研究报告-2025年解读PPT.pdf)
 
+7、[硬件选择](202507/hardware.md)
 
 ## 202211 月
 
