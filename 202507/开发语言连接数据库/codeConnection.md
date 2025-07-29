@@ -25,7 +25,7 @@ postgres://username1:password1@CoordinatorIP:CoordinatorPort,CoordinatorIP:Coord
 如果在批量加载数据时需要添加以下的参数，为了在加载数据时按照`batchSize`进行批量写入，可以添加以下参数：
 
 ```sql
-preferQueryMode=simple&reWriteBatchedInserts=true
+preferQueryMode=extendedForPrepared&reWriteBatchedInserts=true
 
 ```
 
@@ -47,6 +47,7 @@ preparedStatementCacheQueries=512&defaultRowFetchSize=500&prepareThreshold=10
 **`prepareThreshold`**：确定在切换到使用服务器端预编译语句之前，PreparedStatement所需的执行次数。默认值为 5，这意味着在同一个PreparedStatement对象执行第 5 次时开始使用服务器端预编译语句。
 
 > [PostgreSQL JDBC 官方参数详解](https://jdbc.postgresql.org/documentation/head/connect.html)
+
 
 ## **`JAVA 链接案例`**
 
