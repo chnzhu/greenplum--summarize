@@ -29,6 +29,8 @@ preferQueryMode=extendedForPrepared&reWriteBatchedInserts=true
 
 ```
 
+https://doris.apache.org/zh-CN/docs/3.0/data-operate/import/group-commit-manual
+
 **`preferQueryMode`**: 指定使用哪种模式来执行对数据库的查询：simple 表示（`Q`执行，不解析，不绑定，仅文本模式），`extended` 表示始终使用绑定 / 执行消息，`extendedForPrepared` 表示仅对预编译语句使用 `extended` 模式，`endedCacheEverything` 表示使用扩展协议并尝试在查询缓存中缓存每一条语句（包括 `Statement.execute (String sql)）`。取值为 `extended | extendedForPrepared | extendedCacheEverything | simple` 。
 
 **`reWriteBatchedInserts`**: 这会将批量插入语句从 `insert into foo (col1, col2, col3) values (1, 2, 3)` 改为 `insert into foo (col1, col2, col3) values (1, 2, 3), (4, 5, 6)`，这样能提升 2 - 3 倍的性能。

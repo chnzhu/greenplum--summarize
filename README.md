@@ -165,6 +165,8 @@ https://explain.tensor.ru/
 
 https://github.com/ardentperf/dsef/
 
+https://github.com/dalibo/pev2
+
 ```
 
 ## CPU资料
