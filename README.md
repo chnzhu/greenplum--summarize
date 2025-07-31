@@ -243,6 +243,10 @@ https://github.com/dalibo/pev2
 
 7、[硬件选择](202507/hardware.md)
 
+8、[WIP PostgreSQL Sharding](https://wiki.postgresql.org/wiki/WIP_PostgreSQL_Sharding#Companies)
+
+
+
 ## 202211 月
 
 1、[pgpool使用](202211/pgpool%E4%BD%BF%E7%94%A8)
