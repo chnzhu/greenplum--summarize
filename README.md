@@ -233,6 +233,9 @@ https://github.com/dalibo/pev2
 
 2、[DBdoctor](202508/DBdoctor.md)
 
+3、[Operating PostgreSQL as a Data Source for Analytics Pipelines](document/postgres/cdc_v1.0.reveal-Data_Egret.pdf)
+
+
 ## 202507 月
 
 1、[客户端连接数据库](https://github.com/xfg0218/greenplum--summarize/blob/master/202507/%E5%AE%A2%E6%88%B7%E7%AB%AF%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93/clientConnection.md)
