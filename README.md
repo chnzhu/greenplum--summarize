@@ -235,6 +235,9 @@ https://github.com/dalibo/pev2
 
 3、[Operating PostgreSQL as a Data Source for Analytics Pipelines](document/postgres/cdc_v1.0.reveal-Data_Egret.pdf)
 
+4、[Bruce Momjian 的旅行揭示了 Postgres 的未来](https://mp.weixin.qq.com/s/0EACBt7BPX7YTMPQE29Zsg)
+
+
 
 ## 202507 月
 
