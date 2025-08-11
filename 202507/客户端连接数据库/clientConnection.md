@@ -67,6 +67,11 @@ WhoDB 通过与 Ollama、ChatGPT 和 Anthropic 的集成，为您提供了使用
 
 - [whodb](https://whodb.com/)
 
+## ** Azimutt **
+
+Azimutt 是一款支持数据库设计、表结构探索与分析、数据查询以及数据库文档生成功能的全栈工具。
+
+- [azimutt](https://github.com/azimuttapp/azimutt)
 
 ### **各自的特点比较**
 
