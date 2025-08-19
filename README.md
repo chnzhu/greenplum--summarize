@@ -237,7 +237,11 @@ https://github.com/dalibo/pev2
 
 4、[Bruce Momjian 的旅行揭示了 Postgres 的未来](https://mp.weixin.qq.com/s/0EACBt7BPX7YTMPQE29Zsg)
 
+5、[探索 PostgreSQL 和 MySQL 之间的主要差异和相似之处](https://mp.weixin.qq.com/s/kH_lnO4tzzuR0sFPMd0CbQ)
 
+6、[使用 backtrace_functions 对 Postgres 错误进行堆栈跟踪](https://mp.weixin.qq.com/s/QFY-qe_aQ9TcVDsGL7VEkQ)
+
+7、[Oracle 与 PostgreSQL：主要区别和最佳用例](https://mp.weixin.qq.com/s/Qqypc8h2OX4HprC1SMXGEw)
 
 ## 202507 月
 
