@@ -237,6 +237,7 @@ https://github.com/dalibo/pev2
 
 4、[PostgreSQL18-FDW连接的 SCRAM 直通身份验证](202509/PostgreSQL18-FDW-SCRAM.md)
 
+5、["enable"参数在 Postgres 18 中的工作方式将有所不同](202509/Postgres18-parameters.md)
 
 ## 202508 月
 
