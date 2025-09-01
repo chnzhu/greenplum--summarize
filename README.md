@@ -227,6 +227,17 @@ https://github.com/dalibo/pev2
 
 # 历史greenplum知识点介绍
 
+## 202509 月
+
+1、[PostgreSQL与SQL Server:为什么 PostgreSQL遥遥领先](202509/PostgreSQL-VS-SQLServer.md)
+
+2、[PostgreSQL与SQL Server：B树索引差异及去重的优势](202509/PostgreSQL-and-SQLServer-Btree-indexing-diff.md)
+
+3、[关于如何在PostgreSQL中调整数据库参数和配置的综合指南](202509/PostgreSQL-parameters-configurations.md)
+
+4、[PostgreSQL18-FDW连接的 SCRAM 直通身份验证](202509/PostgreSQL18-FDW-SCRAM.md)
+
+
 ## 202508 月
 
 1、[项目交付SOP](202508/项目交付SOP.md)
