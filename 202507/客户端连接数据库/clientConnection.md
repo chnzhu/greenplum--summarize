@@ -73,6 +73,13 @@ Azimutt 是一款支持数据库设计、表结构探索与分析、数据查询
 
 - [azimutt](https://github.com/azimuttapp/azimutt)
 
+##  ** cloudbeaver **
+
+DBeaver 是一款免费跨平台的数据开发和管理工具，支持各种主流数据库产品。
+
+- [cloudbeaver](https://demo.cloudbeaver.io/)
+
+
 ### **各自的特点比较**
 
 | 产品名称 | 版权 | 兼容性 | 是否支持开源版本 | 函数 | 分区表 | 流畅性 | 资源占用 |
