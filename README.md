@@ -239,6 +239,8 @@ https://github.com/dalibo/pev2
 
 5、["enable"参数在 Postgres 18 中的工作方式将有所不同](202509/Postgres18-parameters.md)
 
+6、[处理PostgreSQL中的磁盘I/O瓶颈](https://github.com/xfg0218/greenplum--summarize/blob/master/202509/Handling-disk-IO-Bottlenecks-in-PostgreSQL.md)
+
 ## 202508 月
 
 1、[项目交付SOP](202508/项目交付SOP.md)
