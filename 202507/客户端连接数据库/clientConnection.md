@@ -10,7 +10,7 @@
 - [Greenplum 官方驱动](https://techdocs.broadcom.com/us/en/vmware-tanzu/data-solutions/tanzu-greenplum/7/greenplum-database/datadirect-datadirect_jdbc.html#configuring-prepared-statement-execution)
 
 
-## 常见链接工具使用
+## 常见连接工具使用
 
 ### **DBeaver**
 
@@ -79,6 +79,11 @@ DBeaver 是一款免费跨平台的数据开发和管理工具，支持各种主
 
 - [cloudbeaver](https://demo.cloudbeaver.io/)
 
+## ** sqlark **
+
+款面向信创应用开发者的数据库开发和管理工具
+
+- [sqlark](https://www.sqlark.com/?s=dameng-products)
 
 ### **各自的特点比较**
 
