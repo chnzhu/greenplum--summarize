@@ -93,3 +93,11 @@ DBeaver 是一款免费跨平台的数据开发和管理工具，支持各种主
 | DataGrip | 商业 | GPDB5/6 | 支持 | 支持良好 | 支持 | 较好 | 较大 |
 | Navicat | 商业 | GPDB5/6 | 支持 | 支持一般 | 不支持 | 很好 | 一般 |
 | HHDBCS  | 开源 | GPDB5/6 | 支持 | 支持良好 | 支持 | 很好 | 一般 |
+
+## ** pgNow **
+
+一款免费的PostgreSQL监控与性能诊断工具
+
+- [pgNow 官方下载网址](https://www.red-gate.com/products/redgate-pgnow/installer/ )
+
+
