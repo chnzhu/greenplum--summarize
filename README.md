@@ -227,6 +227,12 @@ https://github.com/dalibo/pev2
 
 # 历史greenplum知识点介绍
 
+## 202510 月
+
+1、[了解PostgreSQL内存对齐](202510/了解PostgreSQL内存对齐.md)
+
+2、[how-to-find-query](202510/how-to-find-query.mdhow-to-find-query)
+
 ## 202509 月
 
 1、[PostgreSQL与SQL Server:为什么 PostgreSQL遥遥领先](202509/PostgreSQL-VS-SQLServer.md)
