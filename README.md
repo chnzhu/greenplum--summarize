@@ -233,6 +233,10 @@ https://github.com/dalibo/pev2
 
 2、[how-to-find-query](202510/how-to-find-query.mdhow-to-find-query)
 
+3、[PostgreSQLWAL日志详解](202510/PostgreSQLWAL日志详解.md)
+
+4、[PostgresWAL文件和序列号](202510/PostgresWAL文件和序列号.md)
+
 ## 202509 月
 
 1、[PostgreSQL与SQL Server:为什么 PostgreSQL遥遥领先](202509/PostgreSQL-VS-SQLServer.md)
