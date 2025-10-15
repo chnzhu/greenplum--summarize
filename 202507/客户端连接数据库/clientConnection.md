@@ -100,4 +100,9 @@ DBeaver 是一款免费跨平台的数据开发和管理工具，支持各种主
 
 - [pgNow 官方下载网址](https://www.red-gate.com/products/redgate-pgnow/installer/ )
 
+## ** DBAgent **
+
+DBAgent新型数据库管理工具
+
+- [DBAgent](http://www.dataleapinfo.com/)
 
