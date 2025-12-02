@@ -227,6 +227,11 @@ https://github.com/dalibo/pev2
 
 # 历史greenplum知识点介绍
 
+## 202512 月
+
+1、[PostgreSQL的VACUUM,AUTOVACUUM和ANALYZE进程](202512/PostgreSQL的VACUUM,AUTOVACUUM和ANALYZE进程.md)
+
+
 ## 202511 月
 
 1、[不要给 Postgres 太多内存](202511/不要给Postgres太多内存.md)
@@ -235,7 +240,13 @@ https://github.com/dalibo/pev2
         
 3、[为什么不选择最佳查询计划呢](202511/为什么不选择最佳查询计划呢.md)
 
+4、[PLpgSQL转换问题如何处理冲突的变量](202511/PLpgSQL转换问题如何处理冲突的变量.md)
 
+5、[Postgres为什么要保持索引精简](202511/Postgres为什么要保持索引精简.md)
+
+6、[PostgreSQL分区修剪函数波动性的作用](202511/PostgreSQL分区修剪函数波动性的作用.md)
+
+7、[PostgreSQL如何使用PSQL或SQL查询显示表](202511/PostgreSQL如何使用PSQL或SQL查询显示表.md)
 
 ## 202510 月
 
