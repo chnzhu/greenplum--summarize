@@ -231,6 +231,7 @@ https://github.com/dalibo/pev2
 
 1、[PostgreSQL的VACUUM,AUTOVACUUM和ANALYZE进程](202512/PostgreSQL的VACUUM,AUTOVACUUM和ANALYZE进程.md)
 
+2、[PostgreSQL中用于处理已删除数据的VACUUM、AUTOVACUUM和ANALYZE进程](202512/PostgreSQL中用于处理已删除数据的VACUUM、AUTOVACUUM和ANALYZE进程.md)
 
 ## 202511 月
 
