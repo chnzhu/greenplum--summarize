@@ -233,6 +233,10 @@ https://github.com/dalibo/pev2
 
 2、[PostgreSQL中用于处理已删除数据的VACUUM、AUTOVACUUM和ANALYZE进程](202512/PostgreSQL中用于处理已删除数据的VACUUM、AUTOVACUUM和ANALYZE进程.md)
 
+3、[Patroni + HAProxy + Keepalived + watchdog + ETCD 安装部署](202512/使用Patroni+HAProxy+Keepalived+ETCD搭建高可用的PostgreSQL集群.md)
+
+4、[Patroni + HAProxy + Keepalived + watchdog + ETCD 各组件原理](202512/Patroni+HAProxy+Keepalived+watchdog+ETCD各组件原理.md)
+
 ## 202511 月
 
 1、[不要给 Postgres 太多内存](202511/不要给Postgres太多内存.md)
