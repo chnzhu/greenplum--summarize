@@ -235,6 +235,8 @@ https://github.com/dalibo/pev2
 
 3、[PostgreSQL高性能IO架构解密与调优实践](202601/PostgreSQL高性能IO架构解密与调优实践.md)
 
+4、[PostgreSQL缓冲机制深度解析-从参数调优到性能核心](202601/PostgreSQL缓冲机制深度解析-从参数调优到性能核心.md)
+
 ## 202512 月
 
 1、[PostgreSQL的VACUUM,AUTOVACUUM和ANALYZE进程](202512/PostgreSQL的VACUUM,AUTOVACUUM和ANALYZE进程.md)
