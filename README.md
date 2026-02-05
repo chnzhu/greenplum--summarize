@@ -233,6 +233,7 @@ https://explain.datadoghq.com/*?splat=
 
 1、[深度解密MySQL2PG工具MySQL至PostgreSQL语法全景拆解过程](202602/深度解密MySQL2PG工具MySQL至PostgreSQL语法全景拆解过程.md)
 
+2、[PostgreSQL中调整Checkpoint的重要性](202602/PostgreSQL中调整Checkpoint的重要性.md)
 
 ## 202601 月
 
